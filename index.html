@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+  <body>
+    <header>
+      <div class="container">
+        <nav class="nav">
+          <ul>
+            <li class="homeNav"><a href="#home">Home</a></li>
+            <li class="aboutNav"><a href="#about">About me</a></li>
+            <li class="resumeNav"><a href="#resume">Resume</a></li>
+            <li class="portfolioNav"><a href="#portfolio">Portfolio</a></li>
+            <li class="contactNav"><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div id="home">
+        <h1>Welcome to my portfolio!</h1>
+        <p>Thank you for taking the time to look through some of my work.</p>
+      </div>
+
+      <div id="about">
+        <h2>A little about me</h2>
+        <div id="aboutCards">
+        <img src="images/me.jpg" alt="picture of me">
+        <p>My name is Rebekah Henderson, I am 22 years old. I currently hold the Senior Assistant Manger position at the Kirkland's Home store in Wentzville.</p>
+        </div>
+      </div>
+
+      <div id="resume">
+        <h2>Download a copy of my resume</h2>
+        <div  id="resumeCards">
+          <div id="pdf">
+            <h3>PDF</h3>
+            <a href="resume_pdf.pdf" target="_blank"><button>PDF</button></a>
+          </div>
+          <div id="word">
+            <h3>Word</h3>
+            <a href="resume_word.docx" target="_blank"><button>Word</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div id="portfolio">
+        <h2>Some portfolio work</h2>
+        <div id="portfolioCards"> 
+          
+          <div class="column">
+            <h3>CSS</h3>
+            <a href="https://github.com/rhendersonranken/CSS" target="_blank"><button>GitHub link</button></a>
+          </div>
+
+          <div class="column">
+            <h3>Boostrap<br></h3>
+            <a href="https://github.com/rhendersonranken/Bootstrap" target="_blank"><button>GitHub link</button></a>
+          </div>
+
+          <div class="column">
+            <h3>HTML/<br>CSS</h3>
+            <a href="https://github.com/rhendersonranken/Midterm-Project" target="_blank"><button>GitHub link</button></a>
+          </div>
+
+          <div class="column">
+            <h3>Javascript/<br>jQuery</h3>
+            <a href="https://github.com/rhendersonranken/JavaScript-jQuery" target="_blank"><button>GitHub link</button></a>
+          </div>
+        </div>
+      </div>
+
+      <div id="contact">
+        <h2>Send me a message</h2>
+        <form action="https://getform.io/f/615f1e72-1438-41f5-9de7-81af6c9bb49b" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required><br>
+          <label for="message">Message:</label>
+          <textarea name="message" rows="5"></textarea><br>
+          <button>Send</button>
+        </form>
+      </div>
+    </main>
+    <footer>
+
+    </footer>
+  </body>
+</html>
