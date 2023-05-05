@@ -1,0 +1,174 @@
+html {
+  background-color: #d5dddf;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 950px;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+/* Nav */
+a {
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+
+a:link, a:visited {
+  color: #b2c5b2;
+}
+
+a:hover, a:focus {
+  color: #688e44;
+}
+
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin: auto;
+  width: 100%;
+  z-index: 1000;
+}
+
+ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #182727;
+}
+
+ul li {
+  margin: 1em;
+}
+
+/* Main */ 
+main {
+  text-align: center;
+  margin: 6em 0;
+}
+
+main h1 {
+  font-size: 3em;
+}
+
+main p {
+  font-size: 1.5em;
+}
+
+#home {
+  padding: 8%;
+  border-radius: 50px;
+  background-color: #b2c5b2;
+}
+
+/* About */
+#aboutCards img {
+  width: 45%;
+  margin-right: 2em;
+}
+
+#aboutCards {
+  display: flex;
+}
+
+#aboutCards p {
+  text-align: left;
+  line-height: 1.5em;
+  font-size: 1.5em;
+}
+
+/* Resume */
+#resumeCards {
+  display: flex;
+  justify-content: space-around;
+}
+
+#pdf, #word {
+  padding: 5%;
+  width: 13%;
+  font-size: 1.4em;
+  color: #182727;
+  background-color: #b2c5b2;
+  border-radius: 20px;
+}
+
+/* Portfolio */
+#portfolioCards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.column {
+  width: 13%;
+  padding: 5%;
+  color: #182727;
+  background-color: #b2c5b2;
+  border-radius: 20px;
+  font-size: 1.4em;
+}
+
+/* Form */
+label {
+  display: inline-block;
+  width: 5em;
+  text-align: right;
+  font-size: 1.2em;
+}
+
+#contact input, textarea {
+  margin-bottom: 1.5em;
+  width: 40%;
+  border: 1px solid #b2c5b2;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 800px) {
+  ul {
+    display: flex; 
+    flex-direction: column;
+    text-align: center;
+  }
+
+  ul li {
+    font-size: .7em;
+  }
+
+  main {
+    margin: 15em 0;
+  }
+
+  #aboutCards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #portfolioCards {
+    display: flex; 
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  #aboutCards p {
+    text-align: center;
+  }
+
+ 
+
+}
+@media only screen and (max-width: 767px) {
+  
+}
+
+@media only screen and (max-width: 479px) {
+
+}
