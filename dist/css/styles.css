@@ -105,7 +105,7 @@ main p {
   display: flex;
   justify-content: space-between;
 }*/
-#htmlCss, #cSharp {
+#htmlCss, #cSharp, #thirdSemester {
   display: flex;
   justify-content: center;
 }
@@ -113,6 +113,13 @@ main p {
 #cSharp .column {
   display: flex;
   padding: 10%; 
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+#thirdSemester .column {
+  display: flex;
   justify-content: center;
   flex-wrap: wrap;
   align-items: flex-end;
